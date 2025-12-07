@@ -1,9 +1,9 @@
 #-------------------------------------------------------------------------
-# AUTHOR: your name
-# FILENAME: title of the source file
-# SPECIFICATION: description of the program
+# AUTHOR: Gerardo Gutierrez
+# FILENAME: cnn.py
+# SPECIFICATION: Classify handwritten difits using a CNN
 # FOR: CS 4210 - Assignment #4
-# TIME SPENT: how long it took you to complete the assignment
+# TIME SPENT: 20 min
 #-------------------------------------------------------------------------
 
 # Importing Python libraries
@@ -92,3 +92,4 @@ loss, acc = model.evaluate(X_test, Y_test)
 # Printing the test accuracy
 # --> add your Python code here
 print(f"Test accuracy: {acc}")
+
